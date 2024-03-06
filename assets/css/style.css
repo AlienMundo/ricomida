@@ -1,0 +1,177 @@
+body {
+  font-family: "Cabin", sans-serif;
+}
+
+/* -------------- SECCION NAVBAR -------------- */
+.navbar {
+  background-color: #373A3C;
+  height: 60px;
+
+  
+}
+
+.navbar-brand {
+  font-family: "Lobster", sans-serif;
+  font-size: 37px;
+  color: white;
+  
+}
+
+.contenido-principal {
+  max-width: 990px;
+  margin: 0 auto;
+
+}
+
+
+/* --------------- HERO SECTION --------------- */
+
+.hero-section {
+  padding: 3rem 0;
+}
+
+.hero-section img {
+  width: 100%;
+}
+
+.hero-section h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #373A3C;
+}
+
+.hero-section p{
+  font-weight: bold;
+  color: #373A3C;
+  font-size: 20px;
+}
+
+.hero-section button {
+  gap: 2rem;
+}
+
+
+
+
+/* ----------------- CAROUSEL ----------------- */
+.carousel-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+}
+
+.carousel-section img {
+  max-width: 233px;
+}
+
+
+
+
+
+
+/* -------------- SECCION RECETAS ------------- */
+
+.receta {
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+  color: #373A3C;
+  font-size: 20px;
+}
+
+.receta ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+hr {
+  background-color: #000000;
+  height: 3px;
+  border: none;
+}
+
+.receta h4 {
+  
+  text-decoration: underline;
+  padding-bottom: 2rem;
+  font-weight: bold;
+  
+}
+
+/* ------- SECCION RECETAS RELACIONADAS ------- */
+
+.recetas-relacionadas {
+  margin-bottom: 5rem;
+}
+
+.recetas-relacionadas .card {
+  width: 316px;
+  height: 377px;
+  margin-bottom: 2rem;
+}
+
+.recetas-relacionadas h2 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 3rem;
+  padding-top: 1rem;
+  color: #373A3C;
+}
+
+
+
+
+
+
+
+
+
+
+/* ---------------- NEWSLETTER ---------------- */
+
+.newsletter {
+  background-color: #DC3545;
+  padding: 10rem 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.newsletter h2{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.newsletter p{
+  font-size: 30px;
+  font-weight: light;
+}
+
+.newsletter span{
+  font-family: "Lobster", sans-serif;
+}
+
+.newsletter button {
+  padding: 0.5rem 5rem;;
+}
+
+/* ------------------ FOOTER ------------------ */
+footer {
+  background-color: #373A3C;
+  padding: 1rem 0;
+  color: #fff;
+  font-family: "Lobster", sans-serif;
+  font-size: 37px;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+}
